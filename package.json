@@ -1,0 +1,25 @@
+{
+  "name": "haven",
+  "version": "0.0.1",
+  "description": "A Discord bot to create and maintain a safe environment for communities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bonsailinse/haven.git"
+  },
+  "author": "Bonsailinse <mail@bonsailinse.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bonsailinse/haven/issues"
+  },
+  "homepage": "https://github.com/Bonsailinse/haven",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  }
+}
