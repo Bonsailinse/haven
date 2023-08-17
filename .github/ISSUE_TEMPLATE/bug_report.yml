@@ -1,0 +1,72 @@
+name: Report a bug
+description: Report a bug to help us improve Haven
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - Bonsailinse
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Self Check
+        - Look for similar errors in existing [GitHub Issues](https://github.com/Bonsailinse/haven/issues?q=is%3Aissue) (open or closed).
+        - Try reaching out on the [Discord server](https://discord.gg/VNXNYqrYMB) for help.
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Describe the bug
+      description: A clear description of what the bug is.
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Steps to reproduce the problem.
+      placeholder: |
+        For example:
+        1. Run command '...' with arguments '...'
+        2. See error
+  - type: textarea
+    validations:
+      required: false
+    attributes:
+      label: Expected behavior
+      description: A brief description of what should happen.
+  - type: textarea
+    attributes:
+      label: Screenshots and recordings
+      description: |
+        If applicable, add screenshots to help explain your problem. You can also record an asciinema session: https://asciinema.org/
+  - type: dropdown
+    validations:
+      required: true
+    attributes:
+      label: Which version of Haven are you using?
+      description: See the bots name to check.
+      options:
+        - Haven
+        - Haven Staging
+  - type: input
+    validations:
+      required: false
+    attributes:
+      label: Discord version
+      placeholder: Browser, desktop app, mobile app
+  - type: input
+    validations:
+      required: false
+    attributes:
+      label: Device
+      placeholder: e.g. PC, iPhone 12, Samsung Galaxy S20
+  - type: input
+    validations:
+      required: false
+    attributes:
+      label: OS / Linux distribution
+      placeholder: e.g. Windows 11, macOS 10.15, Ubuntu 20.04, Arch Linux
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
