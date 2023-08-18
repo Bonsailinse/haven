@@ -21,8 +21,9 @@
 			]
 		],
 		"subject-case": [
-			0,
-			"never"
+			1,
+			"always",
+			"lower-case"
 		]
 	}
 }
