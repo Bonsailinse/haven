@@ -8,6 +8,7 @@ class PingCommand extends Command {
 			name: 'ping',
 			aliases: ['pong'],
 			description: 'ping pong',
+			detailedDescription: 'pong pong',
 		});
 	}
 
