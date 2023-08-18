@@ -9,7 +9,6 @@
     "deploy-global-commands": "node deploy-commands.js --global",
     "start": "node index.js",
     "start-staging": "node index.js --staging"
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/Bonsailinse/haven",
   "dependencies": {
+    "@sapphire/framework": "^4.5.1",
     "discord.js": "^14.12.1"
   },
   "devDependencies": {
